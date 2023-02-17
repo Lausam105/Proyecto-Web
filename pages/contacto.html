@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
+    <script src="js/codigo.js"></script>
     <title>D&C articulos personalizados, diseño textil, sublimados,
         ropa a medida.
     </title>
@@ -13,32 +15,53 @@
 <body>
     <body>
         <header class="encabezado">
-            <div class="logo1">
-                <img class="logo" src="../assets/img/logo.png" alt="logo D&C">
-            </div>
-            
-                <nav id="barra">
-                    <ul>
-                       <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                       <li>
-                    <a href="../pages/quienes_somos.html">Quienes Somos</a>
-                </li>
-                       <li>    
-                    <a href="../pages/productos.html">Productos</a>
-                </li>   
-                       <li> 
-                    <a href="../pages/Tutoriales.html">Tutoriales</a>
-                </li>
-                       <li>
-                    <a class="contacto" href="#">Contactanos</a>
-                </li>    
-                    </ul>
-                </nav>
-            
-        </header>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                           <!--Barra de navegación-->
+                           <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                             <div class="container-fluid">
+                               <a class="navbar-brand" href="#">
+                               <img src="../assets/img/logo.png" width="50px" alt="imagen logo D&C">
+                             </a>
+                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                 <span class="navbar-toggler-icon"></span>
+                               </button>
+                               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 barraNav">
+                                   <li class="nav-item">
+                                     <a class="nav-link active links" aria-current="page" href="../index.html">Inicio</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a class="nav-link links" href="../pages/quienes_somos.html">Quienes Somos</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a class="nav-link links" href="../pages/productos.html">Productos</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a class="nav-link links" href="../pages/Tutoriales.html">Tutoriales</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a class="nav-link links" href="../pages/contacto.html">Contacto</a>
+                                   </li>
+                                   
+                                   
+                                 </ul>
+                                 
+                               </div>
+                             </div>
+                           </nav>
+                       
+               </div>
+           </div> 
+       </div>
+           
+         
+       </header>
         <main>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col">
             <section>
                 <h1 class="titulo2">¡Contáctanos!</h1>
                 <form action="enviar.php" method="post">
@@ -51,22 +74,29 @@
                     
                 </form>
             </section>
+            </div>
+            </div>
+            </div>
     
         </main>
         <footer>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col">
             <div class="final">
                 <p>Todos los derechos reservados</p>
                 <p>Carim Ganimi</p>
                 <p>Facebook</p>
                 <p>Instagram</p>
-                
-    
-            </div>
+         </div>
+         </div>
+         </div>
+         </div>
         </footer>
     
     
     
 </body>
 
-
+<script src="../js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>

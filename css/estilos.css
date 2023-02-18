@@ -7,6 +7,8 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     background-image: url(../assets/img/tela.jpg);
     background-size: 100%;
 }
@@ -30,6 +32,7 @@ body{
 
 /*Estilos del main
  ************Index********************/
+ 
  .titulo{
     font-family: 'IBM Plex Mono', monospace; 
     font-size: 6.25rem;
@@ -47,6 +50,55 @@ body{
 
 .imgCarrusel{
     object-fit: cover;
+}
+
+/**********Quienes somos*******/
+
+.titulo2{
+    font-size: 1.875rem;
+    color:aqua;
+    margin-top: 30px;
+}
+
+.parrafo1 {
+    font-family: 'IBM Plex Mono', monospace; 
+    font-size:1rem;
+    color: aliceblue;
+    position: relative;
+    top:20px;
+    text-align:center;
+    padding: 30px;
+
+}
+
+.subt2{
+    font-size: 1.875rem;
+    color:aqua;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.mapa{
+    position:relative;
+    width:80%;
+    height: 30vh;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+}
+/*Estilos del footer
+*******************************/
+
+footer{
+     margin: auto;
+}
+.final{
+    width:100%;
+    background-color: brown;
+    height: 20vh ;
+    text-align: center;
+    top: 100px;
+
 }
 
 @media screen  and (min-width: 1024px){
@@ -103,52 +155,47 @@ body{
        height: 100%;
         
     }
-    
-}
 
-
-
-
-
-
-
- 
-
-
- 
-
-
-/**********Quienes somos*******/
+    /**********Quienes somos*******/
 
 .titulo2{
     font-size: 50px;
-    color:aqua;
     margin-top: 40px;
 }
 
 .parrafo1 {
-    font-family: 'IBM Plex Mono', monospace; 
-    font-size:30px;
-    color: aliceblue;
-    position: relative;
-    top:20px;
-    text-align:center;
-    padding: 50px;
-
-}
+     font-size:30px;
+     top:20px;
+     padding: 50px;
+    }
 
 .subt2{
     font-size: 30px;
-    color:aqua;
     margin-top: 30px;
     margin-left: 50px;
 }
-
 .mapa{
+    width:600px;
+    height: 450px;
     margin: 20px;
     margin-left: 50px;
     
 }
+    
+}
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
 
 /********Productos********/
 
@@ -196,18 +243,7 @@ body{
 }
  
 
-/*Estilos del footer
-*******************************/
 
-.final{
-    position:relative;
-    background-color: brown;
-    margin: 100px auto;
-    height: 20vh ;
-    text-align: center;
-    top: 100px;
-
-}
 
 
 /*Estilos del formulario

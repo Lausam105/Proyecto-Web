@@ -77,6 +77,14 @@ body{
         height: 100%;
     }
     
+    .navbar-toggler{
+        background-color: rgb(249, 250, 250);
+    }
+    .links{
+        background-color: #fff;
+        color: aliceblue;
+    }
+    
 }
 @media only screen and (min-width:769px) and (max-width:1023px){
     .container-card{
@@ -103,6 +111,14 @@ body{
     .secc_map{
         height: 100%;
     }
+    .links{
+        background-color: #fff;
+        color: aliceblue;
+    }
+    .navbar-toggler{
+        background-color: rgb(249, 250, 250);
+    }
+    
 }
 
 /**********Quienes somos*******/

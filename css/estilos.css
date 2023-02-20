@@ -7,6 +7,7 @@
 }
 
 body{
+    
     background-image: url(../assets/img/tela.jpg);
     background-size: 100%;
 }
@@ -33,6 +34,7 @@ body{
  
  .titulo{
     font-family: 'IBM Plex Mono', monospace; 
+    margin-top: 60px;
     font-size: 6.25rem;
     color: rgb(246, 246, 234);
     text-shadow: #3d5aeb;
@@ -53,7 +55,7 @@ body{
 @media only screen and (min-width:320px) and (max-width:768px){
 	.container-card{
 		flex-wrap: wrap;
-        height: 70vh;
+        height: 100%;
 	}
 	.card{
 		margin: 15px;
@@ -72,14 +74,14 @@ body{
         color: #3e4ded;
     }
     .secc_map{
-        height: 80vh;
+        height: 100%;
     }
     
 }
 @media only screen and (min-width:769px) and (max-width:1023px){
     .container-card{
 		flex-wrap: wrap;
-        height: 90vh;
+        height: 100%;
 	}
     .card{
 		margin: 15px;
@@ -99,7 +101,7 @@ body{
     }
 
     .secc_map{
-        height: 80vh;
+        height: 100%;
     }
 }
 
@@ -108,7 +110,7 @@ body{
 .titulo2{
     font-size: 1.875rem;
     color:aqua;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .parrafo1 {
@@ -345,6 +347,9 @@ body{
 
 
 /*Footer*/
+footer{
+   align-self: flex-end;
+}
 .final{
     display: flex;
     justify-content: space-around;

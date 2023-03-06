@@ -79,7 +79,7 @@ body {
     z-index: 3;
   }
   .carr {
-    margin-top: 100%;
+    margin-top: 100px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
@@ -115,7 +115,7 @@ body {
     background-color: rgb(246, 246, 234);
   }
   .carr {
-    margin-top: 100%;
+    margin-top: 100px;
   }
 }
 /**********Quienes somos*******/
@@ -138,7 +138,7 @@ body {
 .subt2 {
   font-size: 1.875rem;
   color: aqua;
-  margin-top: 100%;
+  margin-top: 100px;
   margin-left: 50px;
 }
 

@@ -1,0 +1,76 @@
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+        height: $cien-porciento;
+	}
+	.card{
+		margin: 15px;
+	}
+    .card img{
+        width: 50%;
+        height: 30%;
+    }
+    .title-cards{
+        width: $cien-porciento;
+        max-width: 1080px;
+        margin: auto;
+        margin-top: $cien-porciento;
+        padding: 20px;
+        text-align: center;
+        color: #3e4ded;
+    }
+    .secc_map{
+        height: $cien-porciento;
+    }
+    
+    .navbar-toggler{
+        background-color: $color-fuente;
+    }
+    .links{
+        background-color: $color-fuente;
+        color: $color-fuente;
+        z-index: 3;
+    }
+    .carr{
+        margin-top: $cien-porciento;
+    }
+    
+}
+@media only screen and (min-width:769px) and (max-width:1023px){
+    .container-card{
+		flex-wrap: wrap;
+        height: $cien-porciento;
+	}
+    .card{
+		margin: 15px;
+	}
+    .card img{
+        width: 50%;
+        height: 30%;
+    }
+    .title-cards{
+        width: $cien-porciento;
+        max-width: 1080px;
+        margin: auto;
+        margin-top: 100px;
+        padding: 20px;
+        text-align: center;
+        color: #3e4ded;
+    }
+
+    .secc_map{
+        height: $cien-porciento;
+    }
+    .links{
+        background-color: $color-fuente;
+        color: $color-fuente;
+        z-index: 3;
+    }
+    .navbar-toggler{
+        background-color: $color-fuente;
+    }
+    .carr{
+        margin-top: $cien-porciento;
+    }
+    
+}

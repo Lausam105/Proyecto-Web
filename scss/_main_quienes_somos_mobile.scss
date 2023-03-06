@@ -1,0 +1,35 @@
+
+/**********Quienes somos*******/
+
+.titulo2{
+    font-size: $tamaño-letra;
+    color:aqua;
+    margin-top: 60px;
+}
+
+.parrafo1 {
+    font-family: 'IBM Plex Mono', monospace; 
+    font-size:1rem;
+    color: aliceblue;
+    position: relative;
+    top:20px;
+    text-align:center;
+    padding: 30px;
+
+}
+
+.subt2{
+    font-size: $tamaño-letra;
+    color:aqua;
+    margin-top: $cien-porciento;
+    margin-left: 50px;
+}
+
+.mapa{
+    position:relative;
+    width:80%;
+    height: 30vh;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+}

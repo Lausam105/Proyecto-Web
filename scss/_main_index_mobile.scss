@@ -1,0 +1,20 @@
+.titulo{
+    font-family: 'IBM Plex Mono', monospace; 
+    margin-top: 60px;
+    font-size: 6.25rem;
+    color: $color-fuente;
+    text-shadow: #3d5aeb;
+    z-index: 1;
+}
+.subt{
+    font-family: 'IBM Plex Mono', monospace;
+    color: $color-fuente;
+    text-align: center;
+    font-size: 1.25rem;
+    z-index: 1;
+}
+
+.imgCarrusel{
+    object-fit: cover;
+    z-index: -1;
+}

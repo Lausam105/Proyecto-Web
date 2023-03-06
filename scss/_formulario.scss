@@ -1,0 +1,30 @@
+/*Estilos del formulario
+******************************/
+
+form {
+    width: 500px;
+    padding: 50px 20px;
+    background-color: cadetblue;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 28px;
+}
+
+h1 {
+    text-align: center;
+}
+input {
+    width: 300px;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 12px;
+    padding: 9px;
+    font-size: 12px;
+  }
+
+  input[type='submit'] {
+       width: 100px;
+       background-color: rgb(103, 96, 96);
+       border: none;
+       border-radius: 5px;
+  }

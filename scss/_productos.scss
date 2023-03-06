@@ -1,0 +1,35 @@
+/********Productos********/
+
+.escolares{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.remera{
+    
+    margin: auto;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.remera:hover{
+    transform:scale(1.2);
+}
+
+.mas{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(30, 33, 219);
+}
+
+.parrafo_final{
+    margin-top: 20px;
+    font-size: 30px;
+    color:aliceblue;
+    text-align: center;
+}

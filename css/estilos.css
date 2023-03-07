@@ -51,10 +51,10 @@ body {
     flex-wrap: wrap;
     height: 100%;
   }
-  .card {
+  .container-card .card {
     margin: 15px;
   }
-  .card img {
+  .container-card .card img {
     width: 50%;
     height: 30%;
   }
@@ -385,9 +385,8 @@ body {
   object-fit: cover;
   transition: 0.5s;
 }
-
 .remera:hover {
-  transform: scale(1.2);
+  transform: scale(1.2); /*transform aplicado a las imagenes de productos*/
 }
 
 .mas {

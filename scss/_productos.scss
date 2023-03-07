@@ -16,11 +16,12 @@
     height: 400px;
     object-fit: cover;
     transition: 0.5s;
+
+    &:hover{
+        transform:scale(1.2); /*transform aplicado a las imagenes de productos*/
+    }
 }
 
-.remera:hover{
-    transform:scale(1.2);
-}
 
 .mas{
     text-align: center;

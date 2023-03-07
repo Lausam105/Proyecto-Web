@@ -81,23 +81,6 @@ body {
   .carr {
     margin-top: 100px;
   }
-  .escolares {
-    background-color: #3e4ded;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: baseline;
-  }
-  .remera {
-    width: 30%;
-    height: 30%;
-  }
-  .mas {
-    font-size: 25px;
-  }
-  .parrafo_final {
-    font-size: 15px;
-  }
 }
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
   .container-card {
@@ -420,6 +403,18 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .remera {
+    width: 80%;
+    height: 80%;
+  }
+  .mas {
+    font-size: 25px;
+  }
+  .parrafo_final {
+    font-size: 15px;
+  }
+}
 /**********Tutoriales*********/
 .video {
   position: relative;

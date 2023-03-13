@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Lausam105/Proyecto-Web/issues"
   },
-  "homepage": "https://github.com/Lausam105/Proyecto-Web#readme"
+  "homepage": "https://github.com/Lausam105/Proyecto-Web#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }

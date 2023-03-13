@@ -2,18 +2,15 @@
 
 
 .escolares{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-content: space-between;
+    @include flex-wrap-center-between; /*mixin aplicado*/
 }
 
 .remera{
     
-    margin: auto;
-    padding: 5px;
-    width: 400px;
-    height: 400px;
+    margin: map-get($estilos-productos, margen );
+    padding: map-get($estilos-productos, interior);
+    width: map-get($estilos-productos, ancho);
+    height: map-get($estilos-productos, alto);
     object-fit: cover;
     transition: 0.5s;
 

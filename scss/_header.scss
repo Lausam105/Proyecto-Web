@@ -2,10 +2,11 @@
 *****************************/
 
 .logo{
-    margin-top:10px;
-    width: 15%;
+    @include estilo-logo(10px, 15%); /*mixin con parámetro*/
     
 }
+
+
 
 .encabezado{
     top:10px;

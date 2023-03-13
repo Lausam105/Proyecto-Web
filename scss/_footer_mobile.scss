@@ -13,27 +13,29 @@
 }
 
 .whats{
-    color: rgb(242, 248, 243);
-    font-size: 1rem;
-    margin-left: 20px;
+    color: map-get($redes-sociales, color);
+    font-size: map-get($redes-sociales, tamaño);
+    margin-left: map-get($redes-sociales, margen-izqu);
     margin-bottom: 30px;
-    margin-top:20px;
-}
-.whats:hover{
-    color:rgb(0, 255, 38);
-    font-size:2rem;
+    margin-top:map-get($redes-sociales, margen-arriba);
     
+    &:hover{
+        color:map-get($redes-sociales, color-what);
+        font-size:2rem;
+    }
+}
 
-}
 .face{
-    color:aliceblue;
-    font-size: 1rem;
-    margin-top:20px;
+    color:map-get($redes-sociales, color);
+    font-size: map-get($redes-sociales, tamaño);
+    margin-top:map-get($redes-sociales, margen-arriba);
+
+    &:hover{
+        color:map-get($redes-sociales, color-face);
+        font-size:2rem;
+    }
 }
-.face:hover{
-    color:#0c30e8;
-    font-size:2rem;
-}
+
 .subt-foot{
     color:antiquewhite;
 }

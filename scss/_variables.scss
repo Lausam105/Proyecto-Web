@@ -1,3 +1,40 @@
+/********variables*******/
+
 $tamaño-letra:1.875rem;
 $color-fuente:rgb(246, 246, 234);
 $cien-porciento: 100%;
+
+
+
+
+/********Mapas*********/
+
+$redes-sociales:( /*mapa aplicado en footer_mobile.scss*/
+    color:aliceblue,
+    tamaño: 1.5rem,
+    margen-izqu:20px,
+    margen-arriba: 20px,
+    color-what: rgb(0, 255, 38),
+    color-face:#0c30e8
+);
+
+$estilos-productos:(/*mapa aplicado en productos.scss*/
+    margen: auto,
+    interior: 5px,
+    ancho: 400px,
+    alto: 400px
+);
+
+/*******Mixins*******/
+
+@mixin flex-wrap-center-between{/*mixins aplicado en productos.scss*/
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+@mixin estilo-logo($MT, $ancho){/*mixin con parámetros aplicado en header.scss*/
+    margin-top: $MT;
+    width: $ancho;
+}

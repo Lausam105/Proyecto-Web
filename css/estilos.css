@@ -152,7 +152,7 @@ body {
   width: 80%;
   height: 30vh;
   margin-bottom: 20px;
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 /*Estilos del footer
@@ -327,10 +327,10 @@ body {
     margin-left: 50px;
   }
   .mapa {
-    width: 600px;
+    width: 80%;
     height: 450px;
     margin: 20px;
-    margin-left: 50px;
+    margin-left: 10%;
     margin-bottom: 100px;
   }
   /*Footer*/
@@ -465,21 +465,22 @@ h1 {
   text-align: center;
 }
 
-input textarea {
-  width: 300px;
-  margin: auto;
-  margin-left: 100px;
-  margin-top: 12px;
-  padding: 20px;
-  font-size: 12px;
-  border: 5px solid black;
+.inp {
+  padding: 8px;
+  border: 2px solid black;
   border-radius: 10px;
 }
-input textarea input[type=submit] {
-  width: 100px;
-  background-color: rgb(43, 153, 217);
-  border: none;
-  border-radius: 5px;
+
+.bot-enviar {
+  background-color: rgb(254, 74, 3);
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  padding: 5px;
+}
+.bot-enviar:hover {
+  color: rgb(244, 235, 235);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {

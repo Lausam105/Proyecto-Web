@@ -13,6 +13,7 @@
     <title>D&C articulos personalizados, diseño textil, sublimados,
         ropa a medida.
     </title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/5285263ee4.js" crossorigin="anonymous"></script>
 </head>
@@ -25,7 +26,7 @@
                         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
                           <div class="container-fluid">
                             <a class="navbar-brand" href="./index.html">
-                            <img src="./assets/img/logo.png" width="50px" alt="imagen logo D&C">
+                           <a href="./index.html"><img src="./assets/img/logo.png" width="50px" alt="imagen logo D&C"></a> 
                           </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon"></span>
@@ -124,9 +125,9 @@
     </div>
     <section>
       <div class="title-cards">
-        <h2>Servicios que Ofrecemos</h2>
+        <h2 data-aos="fade-up">Servicios que Ofrecemos</h2>
       </div>
-    <div class="container-card">
+    <div data-aos="zoom-in" data-aos-delay="1200" class="container-card">
       
     <div class="card">
       <figure>
@@ -168,7 +169,7 @@
       <div class="row">
         <div class="col final">
         <div>
-          <img class="logoFooter img-fluid"  src="./assets/img/logo.png" width="60" height="60" alt="imagen logo D&C">
+         <a href="./index.html"><img class="logoFooter img-fluid"  src="./assets/img/logo.png" width="60" height="60" alt="imagen logo D&C"></a> 
           <p>Logo D&C es marca registrada </p>
           <p>San Martín - Mendoza </p>
           <div><i class="fa-sharp fa-solid fa-phone tel"> Movil: 263-4357227</i></div>
@@ -193,5 +194,8 @@
 
     
     <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
 </html>

@@ -7,16 +7,37 @@
 
 .remera{
     
-    margin: map-get($estilos-productos, margen );
+    margin: map-get($estilos-productos, margen);
     padding: map-get($estilos-productos, interior);
     width: map-get($estilos-productos, ancho);
     height: map-get($estilos-productos, alto);
     object-fit: cover;
+    
+}
+.product{
+    background-color: aliceblue;
+    border: 3px solid rgb(18, 17, 17);
+    margin: 5px;
+    padding: 5px;
+    height: 400px;
+    border-radius: 10px;
     transition: 0.5s;
 
     &:hover{
         transform:scale(1.2); /*transform aplicado a las imagenes de productos*/
     }
+}
+.bot-compra{
+    position: relative;
+    margin-left: 27%;
+    margin-top: 5%;
+    background-color: rgb(35, 76, 133);
+    width: 160px;
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color:aliceblue;
+
 }
 
 
@@ -36,10 +57,14 @@
 @media only screen and (min-width:320px) and (max-width:768px){
     
    
-    .remera{
+    .product{
         width: 80%;
-        height: 80%;
+        height: 100%;
+        padding: 10px;
        
+    }
+    .remera{
+        width: 100%;
     }
     .mas{
         

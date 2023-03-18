@@ -19,10 +19,11 @@ $redes-sociales:( /*mapa aplicado en footer_mobile.scss*/
 );
 
 $estilos-productos:(/*mapa aplicado en productos.scss*/
-    margen: auto,
+    margen: 0 auto,
     interior: 5px,
-    ancho: 400px,
-    alto: 400px
+    ancho: 350px,
+    alto: 300px
+    
 );
 
 /*******Mixins*******/

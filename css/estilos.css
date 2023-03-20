@@ -33,14 +33,14 @@ body {
   font-family: "IBM Plex Mono", monospace;
   margin-top: 60px;
   font-size: 6.25rem;
-  color: rgb(246, 246, 234);
+  color: rgb(252, 248, 248);
   text-shadow: #3d5aeb;
   z-index: 1;
 }
 
 .subt {
   font-family: "IBM Plex Mono", monospace;
-  color: rgb(246, 246, 234);
+  color: rgb(252, 248, 248);
   text-align: center;
   font-size: 1.25rem;
   z-index: 1;
@@ -76,11 +76,11 @@ body {
     height: 100%;
   }
   .navbar-toggler {
-    background-color: rgb(246, 246, 234);
+    background-color: rgb(252, 248, 248);
   }
   .links {
-    background-color: rgb(246, 246, 234);
-    color: rgb(246, 246, 234);
+    background-color: rgb(252, 248, 248);
+    color: rgb(252, 248, 248);
     z-index: 3;
   }
   .carr {
@@ -112,12 +112,11 @@ body {
     height: 100%;
   }
   .links {
-    background-color: rgb(246, 246, 234);
-    color: rgb(246, 246, 234);
-    z-index: 3;
+    background-color: rgb(252, 248, 248);
+    color: rgb(252, 248, 248);
   }
   .navbar-toggler {
-    background-color: rgb(246, 246, 234);
+    background-color: rgb(252, 248, 248);
   }
   .carr {
     margin-top: 100px;
@@ -125,9 +124,11 @@ body {
 }
 /**********Quienes somos*******/
 .titulo2 {
+  position: relative;
   font-size: 1.875rem;
   color: aqua;
   margin-top: 60px;
+  z-index: -3;
 }
 
 .parrafo1 {
@@ -138,6 +139,7 @@ body {
   top: 20px;
   text-align: center;
   padding: 30px;
+  z-index: -1;
 }
 
 .subt2 {
@@ -205,11 +207,11 @@ body {
     margin-inline: 20px;
     font-size: 1.5rem;
     font-weight: 700;
-    color: antiquewhite !important;
+    color: rgb(233, 228, 218) !important;
     border-radius: 60%;
   }
   .links:hover {
-    background-color: #a1aef4;
+    background-color: #1f63eb;
   }
   .titulo {
     font-size: 9.375rem;
@@ -315,6 +317,7 @@ body {
   .titulo2 {
     font-size: 50px;
     margin-top: 40px;
+    z-index: -2;
   }
   .parrafo1 {
     font-size: 30px;

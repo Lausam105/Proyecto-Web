@@ -28,18 +28,24 @@
     }
     
     .navbar-toggler{
+        
         background-color: $color-fuente;
+      
     }
     .links{
         background-color: $color-fuente;
         color: $color-fuente;
         z-index: 3;
+        
+      
     }
     .carr{
         margin-top:100px;
     }
     
 }
+
+
     
 
 @media only screen and (min-width:769px) and (max-width:1023px){
@@ -70,7 +76,7 @@
     .links{
         background-color: $color-fuente;
         color: $color-fuente;
-        z-index: 3;
+       
     }
     .navbar-toggler{
         background-color: $color-fuente;

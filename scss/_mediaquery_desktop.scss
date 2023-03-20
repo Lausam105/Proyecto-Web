@@ -8,17 +8,18 @@
     .barraNav{
         width:$cien-porciento;
         justify-content: center;
+       
     }
 
     .links{
         margin-inline: 20px;
         font-size: 1.5rem;
         font-weight: 700;
-        color:antiquewhite!important;
+        color:rgb(233, 228, 218)!important;
         border-radius: 60%;
         
          &:hover{
-            background-color: #a1aef4;
+            background-color: #1f63eb;
             }
     }
     
@@ -141,6 +142,7 @@
 .titulo2{
     font-size: 50px;
     margin-top: 40px;
+    z-index: -2;
 }
 
 .parrafo1 {

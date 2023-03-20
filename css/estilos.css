@@ -446,6 +446,9 @@ body {
   .parrafo_final {
     font-size: 15px;
   }
+  .bot-compra {
+    margin-left: 24%;
+  }
 }
 /**********Tutoriales*********/
 .video {
